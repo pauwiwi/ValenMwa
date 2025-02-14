@@ -10,7 +10,7 @@ function selectOption(option) {
             displayCatHeart(); // Display the cat-heart.gif
         });
     } else if (option === 'NEVER') {
-        // Change text on the "No" button to "You sure?"
+        console.log("NEVER button clicked!");
         document.getElementById('no-button').innerText = 'You sure?'; 
         // Increase font size of "Yes" button
         var yesButton = document.getElementById('yes-button');
