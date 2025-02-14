@@ -9,7 +9,7 @@ function selectOption(option) {
             document.getElementById('question').style.display = 'none'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
         });
-    } else if (option === 'no') {
+    } else if (option === 'NEVER') {
         // Change text on the "No" button to "You sure?"
         document.getElementById('no-button').innerText = 'You sure?'; 
         // Increase font size of "Yes" button
