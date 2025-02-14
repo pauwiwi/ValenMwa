@@ -11,8 +11,6 @@ function selectOption(option) {
         });
     } else if (option === 'NEVER') {
         console.log("NEVER button clicked!");
-        document.getElementById('no-button').innerText = 'You sure?'; 
-        // Increase font size of "Yes" button
         var yesButton = document.getElementById('yes-button');
         var currentFontSize = window.getComputedStyle(yesButton).getPropertyValue('font-size');
         var newSize = parseFloat(currentFontSize) * 2; // Increase font size by  * 2px
