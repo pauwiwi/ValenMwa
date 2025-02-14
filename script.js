@@ -2,7 +2,8 @@
 
 // Function to handle button click events
 function selectOption(option) {
-    // Check which option was clicked
+    console.log("Received option:", option);
+   
     if (option === 'yes') {
         // Flash rainbow colors
         flashRainbowColors(function() {
